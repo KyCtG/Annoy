@@ -5,15 +5,15 @@ module.exports = {
   description: 'embed example',
   execute(message, args, commandList) {
     const embed = new EmbedBuilder()
-    .setColor(0x0099FF)
+    .setColor(#f7dc6f')
     .setTitle('This is Title')
     .setDescription('Some description here')
-    .setThumbnail('https://cdn.discordapp.com/attachments/1302945490991710250/1302954302326706248/kychitoge.jpeg?ex=6729fe41&is=6728acc1&hm=67a916576b59358f4d8eb5fbf369564760ec6f5185297e02fdca67f3d1591b77&')
+    .setThumbnail('https://cdn.discordapp.com/attachments/1302945490991710250/1302960242904141824/This_is_Thumnail_500_x_500_px.png?ex=672a03c9&is=6728b249&hm=2e78a6aef5aeedba1bd0d6cdde9119279ecb266739d3be59af3b918ff5c877f5&')
     .addFields(
       { name: 'Field Name ', value: 'Some value here' },
       
     )
-    .setImage('https://cdn.discordapp.com/attachments/1302945490991710250/1302945590446915615/Kychitoge_1.png?ex=6729f624&is=6728a4a4&hm=523664898c1278983f09b1662a866415e2599e02f494caf6e258227934d539c0&')
+    .setImage('https://cdn.discordapp.com/attachments/1302945490991710250/1302962530980724756/This_is_image.gif?ex=672a05eb&is=6728b46b&hm=71cdc29810da90f13eb92d7a63377e9f42dae2f28b3f49e79fad80e9f5aeb783&')
     .setTimestamp()
     .setFooter({ text: 'Some footer text here' });
 
