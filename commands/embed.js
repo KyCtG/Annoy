@@ -13,7 +13,7 @@ module.exports = {
       { name: 'Field Name ', value: 'Some value here' },
       
     )
-    .setImage('https://cdn.discordapp.com/attachments/1302945490991710250/1302962530980724756/This_is_image.gif?ex=672a05eb&is=6728b46b&hm=71cdc29810da90f13eb92d7a63377e9f42dae2f28b3f49e79fad80e9f5aeb783&')
+    .setImage('https://cdn.discordapp.com/attachments/1302945490991710250/1302982913557528576/This_is_image_1.gif?ex=672a18e6&is=6728c766&hm=ac1506baf2b7f7de83fa90d9dfc42830c1383219805fd33fa8af4e03f0590685&')
     .setTimestamp()
     .setFooter({ text: 'Some footer text here' });
 
