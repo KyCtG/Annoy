@@ -18,11 +18,11 @@ module.exports = {
 
     if (!channel) {
       const embed = new EmbedBuilder()
-        .setColor('#0099ff') 
+        .setColor('#FFFF00') 
         .setAuthor({
           name: 'Mention Channel',
           iconURL: 'https://media.discordapp.net/attachments/1213421081226903552/1213424821170470932/2396-warning.gif',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          url: ''
         })
         .setDescription(`Please mention a channel for announcements.\n\n**Usage : ** \`<prefix>setup #channel\``)
         .setTimestamp();
@@ -48,11 +48,11 @@ module.exports = {
       console.log(`Announcement channel set to: ${channel.name}`);
 
       const embed = new EmbedBuilder()
-        .setColor('#0099ff') 
+        .setColor('#FFFF00') 
         .setAuthor({
           name: 'Channel Sucessfully set',
           iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213424821673795594/4381-anouncements-animated.gif',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          url: ''
         })
         .setDescription(`Announcement channel has been set to ${channel}`)
         .setTimestamp();
