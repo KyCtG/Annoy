@@ -5,14 +5,14 @@ module.exports = {
   description: 'Display a list of available commands',
   execute(message, args, commandList) {
     const embed = new EmbedBuilder()
-      .setColor('#0099ff')
+      .setColor('#f7dc6f')
       .setTitle('Bot Commands')
-      .setDescription('▶️  **Here are the available commands :**\n‎ ')
+      .setDescription('▶️  **Các lệnh có sẵn:**\n‎ ')
       .addFields(
-      { name: 'setup', value: 'configue the channel for the bot to send announcements' },
-      { name: 'announce', value: 'Start creating an Embed announcement Message' },
-        { name: 'ping', value: 'check the bot\'s latency depends on region' },
-        { name: 'embed', value: 'shows embed example' },
+      { name: 'setup', value: 'setup một channel để bot thông báo' },
+      { name: 'announce', value: 'tạo một thông báo trên channel bạn đã setup' },
+        { name: 'ping', value: 'kiểm tra độ trễ của bot tùy thuộc vào khu vực' },
+        { name: 'embed', value: 'một ví dụ thông báo trông như thế nào' },
     )
 
     message.reply({ embeds: [embed] });
