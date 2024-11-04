@@ -5,7 +5,7 @@ module.exports = {
   description: 'embed example',
   execute(message, args, commandList) {
     const embed = new EmbedBuilder()
-    .setColor('#0099ff')
+    .setColor('#FFFF00')
     .setTitle('This is Title')
     .setDescription('Some description here')
     .setThumbnail('https://cdn.discordapp.com/attachments/1302945490991710250/1302960242904141824/This_is_Thumnail_500_x_500_px.png?ex=672a03c9&is=6728b249&hm=2e78a6aef5aeedba1bd0d6cdde9119279ecb266739d3be59af3b918ff5c877f5&')
