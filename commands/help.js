@@ -12,7 +12,7 @@ module.exports = {
       { name: '.setup', value: '↪ setup một #channel để bot thông báo' },
       { name: '.announce', value: '↪ tạo một thông báo trên #channel bạn đã setup' },
         { name: '.ping', value: '↪ kiểm tra độ trễ của bot tùy thuộc vào khu vực' },
-        { name: '.embed', value: '↪ một ví dụ thông báo trông như thế nào' },
+        { name: '.embed', value: '↪ một ví dụ về thông báo ' },
     )
 
     message.reply({ embeds: [embed] });
