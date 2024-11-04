@@ -21,7 +21,7 @@ module.exports = {
         .setColor('#FFFF00') 
         .setAuthor({
           name: 'Mention Channel',
-          iconURL: 'https://media.discordapp.net/attachments/1213421081226903552/1213424821170470932/2396-warning.gif',
+          iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1297599083694919741/se.gif?ex=6729a091&is=67284f11&hm=56c3a15bb2cfec4e265afdf56c47da901f658bc5760deafe26dc6cc652895c29&',
           url: 'https://discord.com/oauth2/authorize?client_id=1302937656199610388&permissions=8&integration_type=0&scope=bot+applications.commands'
         })
         .setDescription(`Please mention a channel for announcements.\n\n**Usage : ** \`<prefix>setup #channel\``)
@@ -51,7 +51,7 @@ module.exports = {
         .setColor('#FFFF00') 
         .setAuthor({
           name: 'Channel Sucessfully set',
-          iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213424821673795594/4381-anouncements-animated.gif',
+          iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802032938127470/4104-verify-yellow.gif?ex=6729eee7&is=67289d67&hm=037ec62a2570d15abbe43770c07c3c3bd4160ee0db30b6cf5c7782789adadeb2&',
           url: 'https://discord.com/oauth2/authorize?client_id=1302937656199610388&permissions=8&integration_type=0&scope=bot+applications.commands'
         })
         .setDescription(`Announcement channel has been set to ${channel}`)
