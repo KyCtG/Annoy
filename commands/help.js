@@ -5,7 +5,7 @@ module.exports = {
   description: 'Display a list of available commands',
   execute(message, args, commandList) {
     const embed = new EmbedBuilder()
-      .setColor('#f7dc6f')
+      .setColor('#0099ff')
       .setTitle('Bot Commands')
       .setDescription('▶️  **Các lệnh có sẵn:**\n‎ ')
       .addFields(
