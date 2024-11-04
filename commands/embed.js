@@ -8,7 +8,7 @@ module.exports = {
     .setColor(0x0099FF)
     .setTitle('This is Title')
     .setDescription('Some description here')
-    .setThumbnail('https://cdn.discordapp.com/attachments/1302945490991710250/1302945590446915615/Kychitoge_1.png?ex=6729f624&is=6728a4a4&hm=523664898c1278983f09b1662a866415e2599e02f494caf6e258227934d539c0&')
+    .setThumbnail('https://cdn.discordapp.com/attachments/1302945490991710250/1302954302326706248/kychitoge.jpeg?ex=6729fe41&is=6728acc1&hm=67a916576b59358f4d8eb5fbf369564760ec6f5185297e02fdca67f3d1591b77&')
     .addFields(
       { name: 'Field Name ', value: 'Some value here' },
       
