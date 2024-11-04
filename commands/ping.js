@@ -5,7 +5,7 @@ module.exports = {
   description: 'Check the bot\'s latency',
   execute(message, args) {
     const pingEmbed = new EmbedBuilder()
-      .setColor('#0099ff')
+      .setColor('#FFFF00')
       .setTitle('Ping')
       .setDescription('Checking the bot\'s latency...')
       .setTimestamp();
@@ -14,7 +14,7 @@ module.exports = {
       const ping = sentMessage.createdTimestamp - message.createdTimestamp;
 
       const updatedPingEmbed = new EmbedBuilder()
-        .setColor('#0099ff')
+        .setColor('#FFFF00')
         .setTitle('Ping')
         .setDescription(`Bot latency: ${ping}ms`)
         .setTimestamp();
